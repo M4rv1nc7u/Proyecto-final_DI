@@ -11,11 +11,11 @@
     <title>FIRMA ELECTRONICA</title>
 </head>
 <body>
-    <div class="container-form">
+    <div class="container-form register">
         <div class="informacion">
             <h2>BIENVENIDOS</h2>
             <p>Al Programa para poder guardar una Firma Electronica</p>
-            <input type="button" value="Iniciar Sesión">
+            <input type="button" value="Iniciar Sesión" id=" sign-in">
         </div>
         <div class="form-information">
             <div class="form-information-childs">
@@ -28,7 +28,7 @@
                 <form class="form">
                     <label>
                         <i class='bx bx-user' ></i>
-                        <input type="text" placeholder="Nombres">
+                        <input type="text" placeholder="Nombre">
                     </label>
                     <label>
                         <i class='bx bx-envelope' ></i>
@@ -43,5 +43,38 @@
             </div>
         </div>
     </div>
+
+
+
+    <div class="container-form login hide">
+        <div class="informacion">
+            <h2>Bienvenido Nuevamente!!</h2>
+            <p>Al Programa para poder guardar una Firma Electronica</p>
+            <input type="button" value="Registrarse" id=" sign-up">
+        </div>
+        <div 
+        class="form-information">
+            <div class="form-information-childs">
+                <h2>Iniciar Sesión</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github' ></i>
+                </div>
+                <p>Iniciar Sesión con una cuenta</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" placeholder="Correo Electronico">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt' ></i>
+                        <input type="password" placeholder="Contraseña">
+                    </label>
+                    <input type="submit" value="Iniciar Sesión">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
